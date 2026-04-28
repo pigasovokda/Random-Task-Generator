@@ -1,0 +1,164 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Файлы данных приложения
+tasks.json
+*.json
+!requirements.json  # Исключение, если нужен специальный JSON-файл
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи и отладочные файлы
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.pytest_cache/
+*.coverage
+*.coverage.*
+*.tox/
+*.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.code-workspace
+
+# Файлы проектов
+*.pyproj
+*.pyi
+*.sln
+*.csproj
+*.vcxproj
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Файлы окружения
+.env
+.venv
+.virtualenv
+pip-log.txt
+pip-delete-this-directory.txt
+.python-version
+
+# Системные файлы
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Архивы и дистрибутивы
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Документация
+*.docx~
+*.md~
+*.txt~
+*.pdf~
+
+# Временные файлы
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+*.cached
+
+# IDE и инструменты
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.tox/
+.mrrunner/
+.hypothesis/
+.benchmarks/
+
+# Backups
+backup/
+*.backup.*
+*.old
+*.orig
+
+# Конфигурационные файлы (если содержат секреты)
+config.ini
+settings.ini
+secrets.json
+.credentials
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
+*.dockerfile
+
+# Файлы отладки
+*.pdb
+*.dmp
+*.stackdump
+
+# OSX
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Linux
+.directory
+*.directory
+
+# Windows
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Тестовые файлы
+test_*.pyc
+tests/__pycache__/
+tests/*.pyc
+
+# Файлы пользовательских настроек
+*.userprefs
+*.log
+*.vs/
